@@ -2,8 +2,8 @@
 
 Created with love by: Loc
 
-## Video Walkthrough
-
+## Preview
+![](API.gif)
 
 ## User Stories
 
@@ -17,8 +17,7 @@ The following **optional** features are implemented:
 
 * [x] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom. 
 * [x] The user can see an updated number of stories currently shown.
-* [x] he user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs).
-
+* [x] he user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". 
 
 The following **additional** features are implemented:
 
