@@ -6,14 +6,25 @@
 </head>
 <body>
 	<h1> Sample News </h1>
-	<div class="news-story">
-		<div class="news-content">
-			<h2> Feeling pressure to ground Boeing planes, US Transportation Secretary flies on 737 Max 8 </h2>
-			<p> Yahoo Finance </p>
-			<p> 2 hours ago </p>
-			<p> <a href="#"> View More </a></p>
-			<img src="https://www.google.com.vn/search?q=boeing+373&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjsy-XFp_7gAhWZOnAKHYfnAdYQ_AUIDigB&biw=1440&bih=690#imgrc=NZ5oBY5Odr2kaM:">
+	<h2 id="number"> Total number of posts: </h2>
+
+	<input type="checkbox" id="check"><label> TechCrunch </label>
+	<div id='news-stories'>
+		<div class="news-story">
+			<div class="news-content">
+				<h2> Feeling pressure to ground Boeing planes, US Transportation Secretary flies on 737 Max 8 </h2>
+				<p> Yahoo Finance </p>
+				<p> 2 hours ago </p>
+				<p> <a href="#"> View More </a></p>
+			</div>
+			<div class="news-image">
+				<img src="./300px-South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg">
+			</div>
 		</div>
 	</div>
+	<button class='seeBtn'  id='page'> See more </button>
+	<p id='current'> Current number of pages: </p>
+	<script type="text/javascript" src="moment.js"></script>
+	<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
